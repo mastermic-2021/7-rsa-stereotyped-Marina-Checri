@@ -171,14 +171,8 @@ n = text[1][1];
 e = text[1][2];
 chiffre = text[2];
 
-my_m = "Cher collaborateur, votre nouveau mot de passe est ";
-my_m_ = ". Merci de votre comprehension, le service informatique.";
-	
-[m,inconnue,m_]=recuperer_message_type();
-
 copper = coppersmith (n, e, chiffre);
 print_message(decode(copper[1]));
-
 
 
 
